@@ -1,6 +1,6 @@
 # VPX ES-DE 
 
-This is a modified version of ES-DE forked from gitlab to work only for VPX.
+This is a modified version of ES-DE forked from gitlab to work only for VPX(10.8.1 with BGFX).
 
 ## build
 Ubuntu/Debian Dependencies
@@ -13,6 +13,10 @@ git clone https://github.com/superhac/vpx-es-de.git
 cd emulationstation-de
 cmake .
 make -j$(nproc)
+```
+Troubleshooting log file
+```
+~/ES-DE/logs/es_log.txt
 ```
 
 # Orginal PULL readme (Below)
