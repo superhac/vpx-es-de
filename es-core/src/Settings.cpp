@@ -172,7 +172,7 @@ void Settings::setDefaults()
     mStringMap["ThemeLanguage"] = {"automatic", "automatic"};
     mStringMap["ApplicationLanguage"] = {"automatic", "automatic"};
     mStringMap["QuickSystemSelect"] = {"leftrightshoulders", "leftrightshoulders"};
-    mStringMap["StartupSystem"] = {"", ""};
+    mStringMap["StartupSystem"] = {"vpinball", "vpinball"};
     mStringMap["SystemsSorting"] = {"default", "default"};
     mStringMap["DefaultSortOrder"] = {"name, ascending", "name, ascending"};
     mStringMap["MenuColorScheme"] = {"dark", "dark"};
