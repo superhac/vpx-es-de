@@ -1,3 +1,10 @@
+# VPX ES-DE 
+
+This is a modified version of ES-DE forked from gitlab to work only for VPX.
+
+
+# Orginal PULL readme (Below)
+
 # ES-DE Frontend
 
 ES-DE (EmulationStation Desktop Edition) is a frontend for browsing and launching games from your multi-platform collection.
