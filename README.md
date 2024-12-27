@@ -19,6 +19,16 @@ Troubleshooting log file
 ~/ES-DE/logs/es_log.txt
 ```
 
+Your vpinball BGFX build directory needs to be copied to:
+```
+~/Applications/VPinballX/
+```
+
+run in you `emulationstation-de` dir
+```
+./es-ds
+```
+
 # Orginal PULL readme (Below)
 
 # ES-DE Frontend
