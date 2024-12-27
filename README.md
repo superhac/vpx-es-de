@@ -2,6 +2,11 @@
 
 This is a modified version of ES-DE forked from gitlab to work only for VPX.
 
+## build
+git clone https://github.com/superhac/vpx-es-de.git
+cd emulationstation-de
+cmake .
+make -j$(nproc)
 
 # Orginal PULL readme (Below)
 
