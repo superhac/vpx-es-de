@@ -1,3 +1,26 @@
+# VPX ES-DE 
+
+This is a modified version of ES-DE forked from gitlab to work only for VPX(10.8.1 with BGFX).
+
+## build
+Ubuntu/Debian Dependencies
+```
+sudo apt-get install build-essential clang-format git cmake gettext libharfbuzz-dev libicu-dev libsdl2-dev libavcodec-dev libavfilter-dev libavformat-dev libavutil-dev libfreeimage-dev libfreetype6-dev libgit2-dev libcurl4-openssl-dev libpugixml-dev libasound2-dev libgl1-mesa-dev libpoppler-cpp-dev
+```
+Compile
+```
+git clone https://github.com/superhac/vpx-es-de.git
+cd emulationstation-de
+cmake .
+make -j$(nproc)
+```
+Troubleshooting log file
+```
+~/ES-DE/logs/es_log.txt
+```
+
+# Orginal PULL readme (Below)
+
 # ES-DE Frontend
 
 ES-DE (EmulationStation Desktop Edition) is a frontend for browsing and launching games from your multi-platform collection.
